@@ -8,6 +8,7 @@ spaces = false
 OrthographicConsistency = false
 CompoundNouns = false
 SentenceCapitalization = false
+AnA = false
 [language-server.harper-ls.config.harper-ls]
 diagnosticSeverity = "warning"
 # --- markdown ----

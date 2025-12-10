@@ -154,14 +154,21 @@ cde() {
   exag
 }
 
-# create new rust bin proj, move in to it then open src/main.rs & toml
+# Add cargo package
+# @package-name
+ca() {
+  cargo add $1
+}
+
+# Create new Rust bin proj, move into it then open src/main.rs & Cargo.toml
+# @name
 cn() {
   cargo new $1
   cd $1
   hx src/main.rs Cargo.toml
 }
 
-# create new rust lib proj, move in to it then open src/lib.rs & toml
+# Create new Rust lib proj, move into it then open src/lib.rs & Cargo.toml
 # @name
 cnl() {
   cargo new $1 --lib

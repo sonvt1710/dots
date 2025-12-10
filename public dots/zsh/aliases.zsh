@@ -20,6 +20,7 @@ alias ccl='cargo clippy'
 alias cch='cargo check'
 alias cclf='cargo clippy --fix'
 alias cclp='cargo clippy -- -W clippy::pedantic'
+alias cclpt='cargo clippy --all-targets -- -W clippy::pedantic'
 alias cnt='cargo nextest run'
 # update all global crates
 alias cua='cargo install-update -a'
